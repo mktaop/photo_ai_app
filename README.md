@@ -12,4 +12,5 @@ enableCORS = false\n\
 \n\
 " > ~/.streamlit/config.toml
 
-Procfile
+Procfile:
+web: sh setup.sh && streamlit run <name of you python code, e.g. xyz.py>
