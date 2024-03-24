@@ -5,7 +5,9 @@ from PIL import Image
 
 def setup_page():
     st.header("📸 Ask a MLLM questions about your picture.", anchor=False, divider="blue")
-    st.sidebar.header("Options", divider='rainbow')
+    st.sidebar.header("About the app", divider='rainbow')
+    st.sidebar.write("1. Take a photo.")
+    st.sidebar.write("2. Ask question about your photo.")
     hide_menu_style = """
             <style>
             #MainMenu {visibility: hidden;}
